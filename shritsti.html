@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<style>
+    /* General Reset and Base Styles */
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+    }
+
+    header, footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    header h1, footer p {
+        margin: 0;
+    }
+
+    section {
+        padding: 20px;
+        background-color: #fff;
+        margin: 20px auto;
+        max-width: 900px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+        color: #444;
+        border-bottom: 2px solid #ccc;
+        padding-bottom: 5px;
+    }
+
+    img {
+        border-radius: 50%;
+        display: block;
+        margin: 10px 0;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 15px;
+    }
+
+    th, td {
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: center;
+    }
+
+    th {
+        background-color: #f0f0f0;
+    }
+
+    tfoot td {
+        font-weight: bold;
+        background-color: #eaeaea;
+    }
+
+    figcaption {
+        text-align: center;
+        font-style: italic;
+        color: #666;
+    }
+
+    hr {
+        border: 0;
+        height: 1px;
+        background: #ddd;
+        margin: 40px auto;
+        max-width: 900px;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 600px) {
+        body {
+            font-size: 14px;
+        }
+
+        table, thead, tbody, th, td, tr {
+            display: block;
+        }
+
+        th {
+            text-align: left;
+        }
+
+        td {
+            text-align: left;
+            border: none;
+            padding: 8px 0;
+        }
+
+        table {
+            border: none;
+        }
+    }
+</style>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>My Portfolio</h1>
+        <p>Welcome to my personal profile page</p>
+    </header>
+
+    <!-- Profile Section -->
+    <section>
+        <h2>About Me</h2>
+        <figure>
+            <img src="Shristi.jpg" alt="My profile picture" width="200">
+            <figcaption>My Profile Photo</figcaption>
+        </figure>
+        <p><strong>Name:</strong> Shristi Agrawal</p>
+        <p><strong>Education:</strong> B.Tech in Computer Science</p>
+        <p><strong>Skills:</strong> HTML, CSS, JavaScript</p>
+        <p><strong>Contact:</strong> shristiagarwal639@gmail.com</p>
+    </section>
+
+    <hr>
+
+    <!-- Timetable Section -->
+    <section>
+        <h2>Academic Timetable</h2>
+        <table border="1" cellspacing="0" cellpadding="8">
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>8-9 AM</th>
+                    <th>9-10 AM</th>
+                    <th>10-11 AM</th>
+                    <th>11-12 PM</th>
+                    <th>12-1 PM</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td>HTML</td>
+                    <td>Software testing</td>
+                    <td>Automata</td>
+                    <td>Cloud computing</td>
+                    <td>Break</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>HTML</td>
+                    <td>Software testing</td>
+                    <td>Automata</td>
+                    <td>Cloud computing</td>
+                    <td>Break</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>HTML</td>
+                    <td>Software testing</td>
+                    <td>Automata</td>
+                    <td>Cloud computing</td>
+                    <td>Break</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="6">End of Timetable</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 My Portfolio | Designed with Semantic HTML</p>
+    </footer>
+</body>
+</html>
